@@ -94,7 +94,7 @@ async function createStore(token, tokenAddr) {
             break
         }
       } else {
-        // TODO: add handlers for the vesting events from token Manager
+        // TODO: add handlers for the vesting events from Tokens
       }
 
       return nextState

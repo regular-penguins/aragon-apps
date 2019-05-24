@@ -105,7 +105,7 @@ class App extends React.PureComponent {
             onShowLocalIdentityModal={this.handleShowLocalIdentityModal}
           >
             <AppLayout
-              title="Token Manager"
+              title="Tokens"
               afterTitle={tokenSymbol && <Badge.App>{tokenSymbol}</Badge.App>}
               onMenuOpen={requestMenu}
               mainButton={{
